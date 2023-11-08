@@ -2,7 +2,9 @@
 
 int main()
 {
-    printf("This program to covert char to long interger \n ");
+   /*
+       This program to covert char to long interger
+    */
     char c ;
     printf("Enter the char :");
     scanf(" %c", &c);
