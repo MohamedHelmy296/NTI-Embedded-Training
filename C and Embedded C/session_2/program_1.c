@@ -3,7 +3,7 @@
 int main()
 {
 
-    printf("This program to print % and / of two numbers \n");
+    /* This program to print % and / of two numbers */
     int number_one , number_two , division , module ;
     printf("please Enter number one: \n");
     scanf(" %i", &number_one);
