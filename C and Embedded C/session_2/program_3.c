@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main ()
 {
+    /* This program to use if and else if and else */;
     int id ;
     int score;
     char address;
-    /* This program to use if and else if and else */;
     printf("Please enter your id:");
     scanf(" %i", &id);
     if (id == 100)
     {
-        printf("please enter your score \n");
+        printf("Please enter your score \n");
         scanf(" %i", &score);
         if(score <= 50)
         {
-            printf("please enter your address \n");
+            printf("Please enter your address \n");
             scanf(" %c", &address);
             if(address == 'c')
             {
