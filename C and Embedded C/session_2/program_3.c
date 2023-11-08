@@ -4,8 +4,8 @@ int main ()
     int id ;
     int score;
     char address;
-    printf("This program to use if and else if and else \n");
-    printf("please enter your id:");
+    /* This program to use if and else if and else */;
+    printf("Please enter your id:");
     scanf(" %i", &id);
     if (id == 100)
     {
