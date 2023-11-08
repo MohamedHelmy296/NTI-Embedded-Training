@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    printf("This program to make swap between to number \n");
+    /*
+        This program to make swap between to number
+    */
     int number_one ,number_two ,temp ;
     printf("please enter number_one :");
     scanf(" %i", &number_one);
