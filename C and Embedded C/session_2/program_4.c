@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main ()
 {
-    printf("Program for analysis of people of certain age groups with salary "
-           "who are eligible for getting a suitable loan in banking system  if "
-           "their condition and norms get satisfied using nested if statement."
-           "Age<18 illegal (>18,<50 for salary >3000) accept--->50 illegal"
-           "Show details for user in weakness point \n \n");
+    printf("Program for analysis of people of certain age groups with salary \n"
+           "Who is eligible for getting a suitable loan in banking system\n"
+           "if their condition and norms get satisfied using nested if statement.\n"
+           "Age<18 illegal (>18,<50 for salary >3000) accept--->50 illegal\n"
+           "Show details for the user in weakness point \n \n");
 
     int age ;
     float salary ;
-    printf("please enter your age: \n");
+    printf("Please enter your age: \n");
     scanf(" %i", &age);
     if( age > 18)
     {
