@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main ()
 {
-    printf("Program for analysis of people of certain age groups with salary \n"
-           "Who is eligible for getting a suitable loan in banking system\n"
-           "if their condition and norms get satisfied using nested if statement.\n"
-           "Age<18 illegal (>18,<50 for salary >3000) accept--->50 illegal\n"
-           "Show details for the user in weakness point \n \n");
+    /**
+       Program for analysis of people of certain age groups with salary Who is eligible for getting a suitable loan in the banking system 
+       if their condition and norms get satisfied using nested if statement. 
+       Age<18 illegal (>18,<50 for salary >3000) accept--->50 illegal "Show details for the user in weakness point"
+    */
 
     int age ;
     float salary ;
