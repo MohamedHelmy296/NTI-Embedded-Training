@@ -1,9 +1,9 @@
     #include <stdio.h>
     int main ()
 {
+    /* This program to print the states of score */
     float score;
     int i ;
-    printf("This program to print the states of score \n");
     printf("please enter your score : \n");
     for(i = 0 ; i<100 ; i++)
     {
