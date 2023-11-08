@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    printf("This program to enter id, score of 2 student  and Display them and sum of score \n ");
+    /*
+        This program enters id, a score of 2 students,  and Displays them and the sum of the score
+    */
     int id_1;
     int id_2;
     float score_1;
