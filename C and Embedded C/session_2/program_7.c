@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main()
 {
+    /*
+    this program prints the name of the day
+    */
     int day ;
-    printf("this program to print name of the day \n");
-    printf("please enter number of day : \n " );
+    printf("Please enter number of day : \n " );
     scanf(" %d", &day);
     switch(day)
     {
