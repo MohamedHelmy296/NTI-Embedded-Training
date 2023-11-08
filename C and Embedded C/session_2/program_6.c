@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main ()
 {
+    /*
+    calculate program
+    */
     char operator_;
     int num_1, num_2, result;
-    printf("calculate program \n");
-    printf("please enter your operator : \n");
+    printf("Please enter your operator : \n");
     scanf(" %c", &operator_ );
-    printf("please enter two numbers : \n");
+    printf("Please enter two numbers : \n");
     scanf(" %i %i", &num_1, &num_2);
     switch(operator_)
     {
