@@ -8,11 +8,11 @@ int main()
     int number;
     int i ;
     bool primary = true;
-    printf("please enter number:");
+    printf("Please enter number:");
     scanf(" %i", &number);
     if (number <= 0)
     {
-        printf("number %i is not primary \n", number);
+        printf("number %i is invalid number \n", number);
     }
     else if (number == 2)
     {
@@ -39,9 +39,12 @@ int main()
         }
         else
         {
-            printf("number %i is not primary \n",number);
+            printf("number %i   is not primary \n",number);
         }
 }
 
         return 0 ;
     }
+/*
+can use exit(1) to close program  in case number <=0 
+*/
