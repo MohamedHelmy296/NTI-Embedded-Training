@@ -2,12 +2,12 @@
 int main()
 {
     /*
-    this program to print the factorial of  the number
+    This program prints the factorial of  the number
     */
     int number;
     long int factorial = 1;
     int counter ;
-    printf ("Please Enter the number : ");
+    printf ("Please Enter the number: ");
     scanf("%i", &number);
     for (counter =1; counter <= number; counter++)
     {
