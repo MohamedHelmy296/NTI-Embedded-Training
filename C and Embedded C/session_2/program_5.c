@@ -1,114 +1,43 @@
 #include <stdio.h>
-int main ()
+#include <stdlib.h>
+
+int main()
 {
-    /* calculate program */
-    char operator_;
-    int num_1, num_2, result;
-    printf("please enter your operator : \n");
-    scanf(" %c", &operator_ );
-    printf("please enter two numbers : \n");
-    scanf(" %i %i", &num_1, &num_2);
-    switch(operator_)
+    /*
+    Program to accept three numbers and print the largest one on the screen.
+    */
+    int Number_One,Number_Two,Number_three;
+    printf("Please Enter Number_One!\n");
+    scanf(" %i", &Number_One);
+    printf("Please Enter Number_Two!\n");
+    scanf(" %i", &Number_Two);
+    printf("Please Enter Number_three!\n");
+    scanf(" %i", &Number_three);
+    if (Number_One > Number_Two)
     {
-    case '+':
-    {
-        result = num_1 + num_2;
-        printf("%i %c %i = %i", num_1,operator_, num_2, result );
-    }
-    break ;
-
-    case '-':
-    {
-        if (num_1 > num_2)
+        if (Number_One > Number_three)
         {
-            result = num_1 - num_2;
-            printf("%i %c %i = %i", num_1,operator_, num_2, result );
+            printf("the largest number is : %i", Number_One);
         }
         else
         {
-            result = num_2 - num_1;
-            printf("%i %c %i = %i", num_2,operator_, num_1, result );
-        }
-    }
-    break ;
-
-    case '*':
-    {
-        if ((num_1&&num_2) == 1)
-        {
-            result = num_1 * num_2;
-            printf("%i %c %i = %i", num_1,operator_, num_2, result );
-        }
-        else
-        {
-            printf(" invalid number \n");
+            printf("the largest number is : %i", Number_three);
         }
 
     }
-    break ;
-    case '/':
+    else
     {
-        if ( num_1 > num_2)
+        if (Number_Two > Number_three)
         {
-            if ( num_2 == 0 )
-            {
-                printf("error \n");
-            }
-            else
-            {
-                result = num_1 / num_2;
-                printf("%i %c %i = %i", num_1,operator_, num_2, result );
-            }
+            printf("the largest number is : %i", Number_Two);
 
         }
         else
         {
-            if ( num_1 == 0 )
-            {
-                printf("error \n");
-            }
-            else
-            {
-                result = num_2 / num_1;
-                printf("%i %c %i = %i", num_2,operator_, num_1, result );
-            }
-        }
-    }
-    break ;
-    case '%':
-    {
-        if ( num_1 > num_2)
-        {
-            if ( num_2 == 0 )
-            {
-                printf("error \n");
-            }
-            else
-            {
-                result = num_1 % num_2;
-                printf("%i %c %i = %i", num_1,operator_, num_2, result );
-            }
+            printf("the largest number is : %i", Number_three);
 
         }
-        else
-        {
-            if ( num_1 == 0 )
-            {
-                printf("error \n");
-            }
-            else
-            {
-                result = num_2 % num_1;
-                printf("%i %c %i = %i", num_2,operator_, num_1, result );
-            }
-        }
-    }
-    break ;
 
-    default:
-    {
-        printf("invalid operation \n");
     }
-    }
-    return 0 ;
+    return 0;
 }
