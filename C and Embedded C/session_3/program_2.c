@@ -2,7 +2,7 @@
 int main()
 {
     /*
-    program to accept number n then countdown from number n to 0 and print on screen
+    program to accept number n then count from number n to 0 and print on the screen
     */
     int number ;
     int i;
