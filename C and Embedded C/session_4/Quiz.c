@@ -4,7 +4,7 @@
 int main()
 {
     /*
-    number of digits of enter number
+     C program to swap the first and last digits of a number. 
     */
     int originalNum, lastDigit ,firstDigit,power,result ;
     int counter;
