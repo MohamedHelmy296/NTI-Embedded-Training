@@ -4,7 +4,7 @@
 int main()
 {
     /*
-    number of digit of enter number
+    number of digits of enter number
     */
     int originalNum, lastDigit ,firstDigit,power,result ;
     int counter;
