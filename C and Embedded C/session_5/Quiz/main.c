@@ -4,6 +4,9 @@
 
 int main()
 {
+    /*
+    program to get array number from user and sorted it 
+    */
     int i, j, temp;
     int Num_Array;
 
