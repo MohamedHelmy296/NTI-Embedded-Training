@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1700122365 source:d:\embedded\nti\c and embedded c\session_5\main.c
-	<stdio.h>
-	<stdlib.h>
-	<windows.h>
-
