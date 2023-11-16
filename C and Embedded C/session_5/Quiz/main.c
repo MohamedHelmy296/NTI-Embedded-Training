@@ -33,6 +33,7 @@ int main()
 
     }
     printf("array after sorted \n");
+    //just for fun
     printf("please Wait ");
     for(i=0 ; i < 5; i++)
     {
@@ -40,6 +41,7 @@ int main()
         Sleep(600);
     }
     printf("\n");
+    //
     for(i=0; i<Num_Array; i++)
     {
         printf("enter number %i \n",array[i]);
