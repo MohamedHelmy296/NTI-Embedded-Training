@@ -3,17 +3,17 @@
 int main()
 {
     /*
-    program to cal the frequency of each number in array
+    program to calculate the frequency of each number in the array
     */
     int i, j, counter ;
     int Num_Array;
 
-    //get number array form user
+    //get number array from user
     printf("please add number of array");
     scanf("%i",&Num_Array);
     int array[Num_Array];
 
-    //enter array numbers form user
+    //enter array numbers from the user
     for(i=0; i<Num_Array; i++)
     {
         printf("enter number %i: \n",i+1);
@@ -32,6 +32,13 @@ int main()
     }
     for(i=0 ; i<Num_Array;i++)
     {
+        /*
+        if you need to print the unique number.....
+        {
+        if(C_array[i] == 1)
+            printf(" %i : is uniqe \n",array[i]);
+        }
+        */
         printf("number in index %i: %i \n " ,i,C_array[i]);
     }
 
