@@ -1,5 +1,5 @@
 #include <stdio.h>
-void sum (int *a , int *b , int *sum);
+void sum (int *a , int *b , int *summ);
 
 int main ()
 {
@@ -12,7 +12,7 @@ int main ()
     return 0 ;
 }
 
-void sum (int *a , int *b , int *sum)
+void sum (int *a , int *b , int *summ)
 {
     *sum = *a +*b;
 }
