@@ -1,0 +1,13 @@
+program_1 ......... make functions to (fill the Array, print the array, get sum and average, 
+                                       print the sum and average, reverse array) use pointer and array (passing value) 
+‎
+program_2 ......... Training to use function and pointer (passing value using a pointer) increment by 3
+program_3 ......... Training to use function and pointer (passing value using a pointer) to sum and without return to main without stor
+program_4 ......... Training to use function and pointer (passing value using a pointer) to swap to number without return to main 
+program_5 ......... Recursive function to calculate factorial
+program_6 ......... Recursive function to get the Fibonacci  of the number 
+program_7 ......... finite loop of program_1 
+program_8 ......... function to get the power of the number 
+program_9 ......... function to get the sum of the number under the get number 
+
+
