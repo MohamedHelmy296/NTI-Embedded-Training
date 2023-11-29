@@ -1,2 +1,3 @@
 program_1 ......... use pointer with function to print sum and average and min and max of n number of array 
-program_2 ......... function of (sum avg min max) using a '''pointer of function'''
+program_2 ......... function of (sum avg min max) using a ''' pointer of function'''
+prorgam_3 ......... use calloc (dynamic function)
